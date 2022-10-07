@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif !important;
+ background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+ background-size: 400% 400%;
+ animation: gradient 15s ease infinite;
+}
+
+  @keyframes gradient {
+        0% {background-position: 0% 50%;}
+        50% {background-position: 100% 50%;}
+        100% {background-position: 0% 50%;}
+    }
+
+.logo {
+  border-radius: 50% !important;
+  margin-top: 2em !important;
+  transition: all 0.6s ease-in-out;
+}
+.logo:hover {
+    transform: translateY(-15px);
+    opacity: 0.75;
+}
+.text{
+text-decoration: none;
+color: #0080FF;  
+transition: all 0.3s;
+}
+
+.text:hover {
+  color: #0331A7;
+  transform: scale(1.4);
+
+}
+
+
+
+#list1 .form-control { {
+  border-color: transparent;
+}
+#list1 .form-control:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+#list1 .select-input.form-control[readonly]:not([disabled]) {
+  background-color: #fbfbfb;
+}
+
+.calendar_icon {
+  margin: 0 auto;
+}
+img.hour_glass {
+  font-size: 25%;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+.p1 {
+  
+}
